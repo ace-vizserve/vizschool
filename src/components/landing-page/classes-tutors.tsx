@@ -23,7 +23,7 @@ function ClassesTutors() {
     <div className="px-4 md:px-8 container mx-auto pb-20 md:py-20 xl:py-0">
       <div
         ref={containerRef}
-        className="h-screen max-h-[650px] w-full flex flex-col-reverse xl:flex-row items-center justify-center">
+        className="h-screen max-h-[650px] w-full flex flex-col-reverse gap-8 xl:gap-0 xl:flex-row items-center justify-center">
         <div className="h-full w-full flex items-center justify-center relative">
           <motion.svg
             initial={{
