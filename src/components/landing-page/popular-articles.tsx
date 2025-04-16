@@ -19,7 +19,7 @@ function PopularArticles() {
 
   return (
     <MaxWidthWrapper>
-      <div className="flex flex-col items-center gap-12 pb-14 md:pb-20 lg:pb-28">
+      <div className="flex flex-col items-center gap-12">
         <div className="text-center">
           <h1 className="text-center text-balance text-3xl lg:text-4xl font-bold select-none">Popular Articles</h1>
         </div>

@@ -1,4 +1,5 @@
 import Footer from "@/components/footer";
+import ActionBox from "@/components/landing-page/action-box";
 import ClassesTutors from "@/components/landing-page/classes-tutors";
 import Hero from "@/components/landing-page/hero-section";
 import PopularArticles from "@/components/landing-page/popular-articles";
@@ -18,6 +19,7 @@ function LandingPage() {
         <VirtualCourses />
         <Testimonials />
         <PopularArticles />
+        <ActionBox />
         <Footer />
       </main>
     </>
