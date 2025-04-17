@@ -5,12 +5,10 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { ArrowLeftIcon, ArrowRightIcon, ChevronRight, Clock3Icon } from "lucide-react";
 import { useRef, useState } from "react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 import { A11y, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Swiper as SwiperType } from "swiper/types";
+import "../../swiper.css";
 
 function PopularArticles() {
   const swiperRef = useRef<SwiperType | null>(null);
